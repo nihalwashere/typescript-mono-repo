@@ -1,13 +1,11 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { HeaderFromUILib } from "./components/Header-from-UI-lib";
 import { ToggleButtonWithHook } from "./components/Toggle-button-with-hook";
 
 function App() {
   return (
     <div className="App">
-      <HeaderFromUILib />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      <ToggleButtonWithHook/>
+        <ToggleButtonWithHook />
       </header>
     </div>
   );
